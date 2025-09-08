@@ -1,34 +1,52 @@
-iCar Dealership Management System
+# Series Management System
 
-Project Overview
-iCar is a Java console-based dealership management system built using Object-Oriented Programming (OOP) principles.  
-The system allows users to view available cars, search cars, purchase cars, and generate sales reports.  
+## Overview
+The Series Management System is a simple Java console-based application that allows users to manage a collection of TV series.  
+It was developed in NetBeans using Java and includes JUnit tests to ensure the application works correctly.
 
-It is designed to demonstrate advanced arrays, inheritance, encapsulation, constructors, loops, and unit testing concepts taught in Java courses.  
-
-
-Features
-Core Features
-View Available Cars– Lists all cars that are not yet sold.
-Search for Cars– Search by Car ID.
-Buy a Car– Mark a car as sold.
-Generate Sales Reports– Displays the **total cars sold** and **total revenue**.
-Information Hiding– Uses private attributes and public getters/setters.
-Inheritance – `Car` is the parent class with `Sedan`, `SUV`, and `ElectricCar` as subclasses.
-Unit Testing – Includes JUnit tests for validation.
-  
+This project demonstrates:
+- Object-Oriented Programming (OOP) principles
+- CRUD operations (Create, Read, Update, Delete)
+- Input validation
+- JUnit testing for quality assurance
 
 
-Technologies Used
-Language: Java (JDK 17 or higher recommended)
-IDE: NetBeans / IntelliJ / Eclipse
-Testing Framework: JUnit 4
-Concepts Used:
-  - Arrays & Loops  
-  - Constructors  
-  - Inheritance  
-  - Encapsulation  
-  - Console I/O  
-  - Unit Testing  
+
+## Features
+The application supports the following operations:
+
+1. Preloaded Series  
+   The system automatically loads 3 popular TV series when it starts:
+   - Squid Games  
+   - On My Block  
+   - Cobra Kai
+
+2. Capture a New Series  
+   Add a new series by entering:
+   - Series ID
+   - Series Name
+   - Age Restriction
+   - Number of Episodes
+
+3. Search for a Series  
+   - Search by ID  
+   - Search by Name
+
+4. Update Series  
+   Update the age restriction for an existing series.
+
+5. Delete a Series  
+   Remove a series permanently from the database.
+
+6. Print Series Report  
+   Displays all stored series in a clean, formatted report.
+
+7. List by Age Restriction  
+   Filters and displays only the series suitable for a given maximum age.
+
+8. Show Total Number of Series  
+   Displays the total number of series currently stored.
+
+
 
 
